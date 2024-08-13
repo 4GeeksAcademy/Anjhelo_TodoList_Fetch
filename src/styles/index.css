@@ -10,3 +10,29 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+h1 {
+    font-size: 80px;
+    font-weight: lighter;
+    color: #e4cbe7;
+
+}
+li{
+    font-weight: lighter;
+    font-size: 25px;
+}
+ul {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.delete {
+    opacity: 0;
+    font-size: 20px;
+    transition: color 0.2s ease-out, opacity 0.2s ease-out;
+}
+
+li:hover .delete {
+    opacity: 1;
+}
